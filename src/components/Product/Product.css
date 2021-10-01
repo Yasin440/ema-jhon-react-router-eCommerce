@@ -1,0 +1,38 @@
+:root{
+    --primaryBtn: rgb(90, 88, 253);
+}
+.product{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    margin: 20px 10px 0 0;
+
+}
+.product .productDetails{
+    margin: 0 0 40px 18px;
+
+}
+.product .productDetails h2{
+    color: var(--primaryBtn);
+}
+.product .productDetails button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: .4rem 1.5rem;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    transition: .6s all;
+}
+.product .productDetails button:hover{
+    background-color: var(--primaryBtn);
+    color: white;
+}
+.product .productDetails button span{
+    font-weight: 600;
+}
+.product .productDetails button img{
+    width: 25px;
+    margin: 0 5px;
+}

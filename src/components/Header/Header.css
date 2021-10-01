@@ -1,0 +1,29 @@
+.logoImg{
+    text-align: center;
+    padding: .8rem;
+    background-color: white;
+}
+.logoImg img{
+    width: 15rem;
+}
+.navbar{
+    background-color: black;
+    padding: .2rem 0;
+}
+.navbar li{
+    list-style: none;
+    display: inline;
+}
+.navbar .list-item a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    padding: .5rem;
+    margin-left:.8rem;
+    border-radius: 5px;
+    transition: .6s all;
+}
+.navbar .list-item a:hover{
+    background-color: whitesmoke;
+    color: black;
+}

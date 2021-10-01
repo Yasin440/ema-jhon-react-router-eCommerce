@@ -1,0 +1,19 @@
+.shop{
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    width: 90%;
+    margin: auto;
+}
+div .cartWizard{
+    border-left: 1px solid gainsboro;
+    padding-left: 10px;
+}
+.cartHolder{
+    background-color: rgba(238, 238, 238, 0.623);
+    padding: 30px 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    position: sticky;
+    top: .24rem;
+    box-shadow: 7px 7px 15px grey
+}
