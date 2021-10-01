@@ -24,10 +24,9 @@ const Shop = () => {
                     const quantity = loadDbData[key];
                     searchProductWithDbKey.quantity= quantity;
                     savedCart.push(searchProductWithDbKey);
-                    setCart(savedCart);
-                    console.log(savedCart);
                 }
             }
+            setCart(savedCart);
         }
     }, [products]);
 
