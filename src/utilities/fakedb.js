@@ -46,10 +46,10 @@ const getStoredCart = () => {
   return exist ? JSON.parse(exist) : {};
 }
 
-//-------clear all cart
+//-------clear all db
 
 const clearCart = () => {
-  localStorage.removeItem('shopping_cart');
+  localStorage.removeItem('shopping_Cart');
 }
 
 export { addToBD, deleteFromDb, updateDb, getStoredCart, clearCart }

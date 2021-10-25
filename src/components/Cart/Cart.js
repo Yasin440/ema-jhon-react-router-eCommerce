@@ -29,7 +29,7 @@ const Cart = (props) => {
                 <div className="cartCalItem"><p>Tax:</p><p>${tax.toFixed(2)}</p></div><hr className='lastHr' />
                 <div className="cartCalItem"><p>Grand Total:</p><p>${gTotal.toFixed(2)}</p></div>
             </div>
-            <button type='button'><span>Review Your Order</span></button>
+            {props.children}
         </div>
     );
 };

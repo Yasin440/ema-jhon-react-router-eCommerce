@@ -27,10 +27,18 @@
     transition: .6s all;
     margin: 2rem auto 0 auto;
 }
-.cart button:hover{
+.cart  button:hover{
     background-color: var(--primaryBtn);
     color: white;
 }
-.cart button span{
+.cart button:hover span{
+    color: white;
+}
+.cart a{
+    text-decoration: none;
+}
+.cart span{
+    transition: .6s all;
     font-weight: 600;
+    color: black;
 }
